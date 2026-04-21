@@ -1,0 +1,28 @@
+body{
+  font-family: arial,Sans-Serif;
+  background-color: #ed77be;
+  padding: 25px;
+  margin: 0;
+  text-align: center;
+  width: 40%;
+  margin:auto;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 35px;
+}
+.card{
+  background-color: #9677ed;
+  padding: 25px;
+  border-radius: 15px;
+}
+.Web development{
+  color: #77edd0;
+  font-size: 14px;
+}
+.Cyber Security{
+ color: #77edd0;
+  font-size: 14px; 
+}
