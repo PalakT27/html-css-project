@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Students Registration Form</h2>
+    <form>
+      <fieldset>
+        <legend>Sign Up Form</legend>
+        <label>Name: <input type="text" required></label><br><br>
+        <label>Email: <input type="email" required></label><br><br>
+        <label>Mobile.No: <input type="tel" required></label><br><br>
+        <label>Course Name:
+        <select>
+          <option>Computer Science</option>
+          <option>Information Technology</option>
+          <option>Electronic</option>
+        </select></label><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Female" id="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="gender" value="Male" id="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" value="Others" id="Others">
+        <label for="Others">Others</label><br><br>
+        <label>Upload Required Document</label><br>
+        <input type="file" name="Document" accept=".pdf,.doc,.docx" class="file"><br><br>
+        <label for="Feedback">Your Feedback:</label><br>
+        <textarea id="Feedback" name="Feedback" rows="5" cols="50" placeholder="Write Your Feedback Here...">
+        </textarea><br><br>
+        <button type="Reset">Reset</button>
+        <button type="Submit">Submit</button>
+      </fieldset>
+    </form>
+</body>
+</html>

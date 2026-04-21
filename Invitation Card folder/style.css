@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+h1{
+    font-family: lucida sans;
+    font-size: 25px;
+    font-style: oblique;
+    background-color: rgb(255, 0, 153);
+    display: inline-block;
+    padding:10px;
+    border-radius: 5px;
+}
+h2{
+    font-size: larger;
+    font-family: candara;
+    color:rgb(68, 62, 56);
+}
+h3{
+    line-height: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.container{
+    width:60%;
+    margin: 100px auto;
+}
+.card{
+    position: relative;
+    background-color: rgba(239, 250, 144, 0.588);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.date{
+    position: absolute;
+ background-color: lightcyan;
+    padding: 5px;
+    border-radius: 40px;
+    bottom:80px;
+    left: 125px;
+
+
+}
+.p{
+    font-size: x-large;
+    font-style: oblique;
+}
+.venue{
+    font-size: 23px;
+    font-family: candara;
+}
+.ending{
+    padding: 120px 0px 0px 0px;
+    font-size: 22px;
+    color: rgb(144, 4, 4);
+}

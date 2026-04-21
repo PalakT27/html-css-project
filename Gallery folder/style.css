@@ -1,0 +1,42 @@
+body{
+    background-color: #807b7b;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+figure{
+    margin: 0;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+figcaption{
+    text-align: center;
+    font-family: verdana;
+    font-size: 16px;
+    padding:8px;
+    background-color: black;
+    color: white;
+}
+h2{
+    font-family: candara;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    color: azure;
+}
+figure:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+To make one image bigger
+.gallery figure:first-child {
+    grid-column: span 2;
+}
