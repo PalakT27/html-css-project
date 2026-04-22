@@ -1,0 +1,94 @@
+.box1 {
+    width: 50px;
+    height: 50px;
+    border: 8px solid lightgray;
+    border-top: 8px solid black;  /* moving part */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.box2{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.box2 span{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    animation: dotbounce 0.5s infinite ease-in-out alternate;
+}
+.box2 span:nth-child(2){
+    animation-delay: 0.2s;
+}
+.box2 span:nth-child(3){
+    animation-delay: 0.4s;
+}
+@keyframes dotbounce{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-20px);
+    }
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: grey;
+    color: aliceblue;
+    font-size: 16px;
+    animation: button 0.3s infinite;
+}
+@keyframes button{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    75%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+button:hover{
+    animation: button 0.1s;
+    background-color: rgb(148, 10, 10);
+    transform: scale(1.09);
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 70%;
+    animation: pulse 2s infinite alternate;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

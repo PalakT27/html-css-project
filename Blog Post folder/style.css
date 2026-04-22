@@ -1,0 +1,92 @@
+article{
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    background-color: lightcyan;
+}
+.heading1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(158, 239, 156);
+    margin-top: 30px;
+}
+.para1{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-color: rgb(162, 226, 241);
+    display:inline;
+}
+time{
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #555;
+    background: none;
+}
+.para2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.h2{
+    font-family: candara;
+    font-style: italic;
+}
+.para3{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+footer{
+    font-family: candara;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 2px;
+    text-align: right;
+}
+.a{
+    background-color: pink;
+    margin-top: 30px;
+}
+.heading2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(228, 244, 164);
+    margin-top: 30px;
+}
+.para4{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-color: rgb(238, 122, 184);
+    display:inline;    
+}
+.content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.text{
+    width: 50%;
+}
+.image{
+width: 50%;
+}
+.image img{
+    width: 100%;
+}
+.para5{
+    font-family: candara;
+    font-size: 20px;
+    color:rgb(22, 34, 34);
+}
+.question{
+    margin-bottom: 10px;
+    font-style: italic;
+}
