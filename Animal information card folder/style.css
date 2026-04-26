@@ -45,9 +45,8 @@ p{
 .cards:hover{
     box-shadow: 5px 5px 10px gray;
     transform: scale(1.05);
-    color: darkblue;
 }
-.card:hover figcaption{
+.cards:hover figcaption{
     background-color: black;
     color: white;
 }
