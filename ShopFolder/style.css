@@ -121,6 +121,9 @@ h1{
   margin: auto;
   flex-wrap: wrap;
 }
+.detailName{
+  text-align:center;
+}
 .list-container{
   flex-direction: column;
   display: flex;
